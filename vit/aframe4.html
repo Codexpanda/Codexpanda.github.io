@@ -9,37 +9,13 @@
 </head>
 <body>
   <a-scene embedded arjs>
-      <a-entity position="0 2.25 -15" particle-system="preset: snow; particleCount: 5000"></a-entity>
+    
+      <a-box position="1 1 1" rotation="0 0 0" color="#4CC3D9" shadow></a-box>
+      <a-sphere position="1 1.75 1" radius="1.25" color="#abd13d" shadow></a-sphere>
+  
 
-      <a-entity>
-        <a-sphere position="0 2.25 -5" radius="0.75" color="#fff"></a-sphere>
-  
-        <!-- eyes-->
-        <a-sphere position="-.1 2.25 -3" radius="0.05" color="#000"></a-sphere>
-        <a-sphere position=".1 2.25 -3" radius="0.05" color="#000"></a-sphere>
-        <!-- end of eyes-->
-  
-  
-  
-        <a-cone color="tomato" radius-bottom="0.05" radius-top="0.01" position="0 2.0 -2" rotation="90 180 180">
-        </a-cone>
-        <!-- belly-->
-        <a-sphere position="0 1.25 -5" radius="1.25" color="#fff">
-  
-        </a-sphere>
-        <a-sphere position="0 0.75 -3" radius=".05" color="#000"></a-sphere>
-        <a-sphere position="0 1.25 -3" radius=".05" color="#000"></a-sphere>
-        <a-sphere position="0 1.75 -3" radius=".05" color="#000"></a-sphere>
-  
-  
-  
-      </a-entity>
-  
-  
-      <a-sky color="#000"></a-sky>
-
-    <!-- <a-marker-camera preset='hiro'></a-marker-camera> -->
-    <a-marker-camera type='pattern' url='./vit.patt'></a-marker-camera>
+     
+    <a-marker-camera type='pattern' url='./vit.patt'></a-marker-camera> 
   </a-scene>
 </body>
 </html>
